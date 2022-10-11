@@ -1,11 +1,13 @@
-import { Espaco } from "./components/Container/Container";
-
-
+import { Container } from '../src/components/container/container'
+const style = {
+  width: "360px",
+  height: "800px",
+  backgroundColor: "#F2D9F2"
+  }
 function App() {
   return (
-    <div className="App">
-      <Espaco>
-      </Espaco>
+    <div style={style} className="App">
+      <Container></Container>
     </div>
   );
 }
